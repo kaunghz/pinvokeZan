@@ -6,8 +6,8 @@
 #define DLL_EXPORT __attribute__((visibility("default")))
 #endif
 
-extern "C" DLL_EXPORT void hello();
-
-void hello() {
-    std::cout << "greetings from C++ vsc\n";
+extern "C" {
+    DLL_EXPORT void hello() {
+        std::cout << "greetings from C++ vsc\n";
+    }
 }
