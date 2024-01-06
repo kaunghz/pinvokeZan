@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kaunghtoozan/Documents/Programming/C#/pinvokeProj/C#/csnetcore.csproj": {}
+    "/Users/kaunghtoozan/Documents/Programming/C#/pinvokeProj/Csharp/csnetcore.csproj": {}
   },
   "projects": {
-    "/Users/kaunghtoozan/Documents/Programming/C#/pinvokeProj/C#/csnetcore.csproj": {
+    "/Users/kaunghtoozan/Documents/Programming/C#/pinvokeProj/Csharp/csnetcore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kaunghtoozan/Documents/Programming/C#/pinvokeProj/C#/csnetcore.csproj",
+        "projectUniqueName": "/Users/kaunghtoozan/Documents/Programming/C#/pinvokeProj/Csharp/csnetcore.csproj",
         "projectName": "csnetcore",
-        "projectPath": "/Users/kaunghtoozan/Documents/Programming/C#/pinvokeProj/C#/csnetcore.csproj",
+        "projectPath": "/Users/kaunghtoozan/Documents/Programming/C#/pinvokeProj/Csharp/csnetcore.csproj",
         "packagesPath": "/Users/kaunghtoozan/.nuget/packages/",
-        "outputPath": "/Users/kaunghtoozan/Documents/Programming/C#/pinvokeProj/C#/obj/",
+        "outputPath": "/Users/kaunghtoozan/Documents/Programming/C#/pinvokeProj/Csharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kaunghtoozan/.nuget/NuGet/NuGet.Config"

@@ -1,6 +1,8 @@
- # Native Library Integration in C#
+ # Requirements
+run.sh will not work on windows. If running on windows, change makefile in NativeC++ to generate a bundled NativeLibrary.dll in the C# side.
 
-This repository demonstrates how to integrate a native library written in C/C++ with a C# program. The native library, `NativeLibrary.dll`, contains a function called `hello()` that simply prints a message to the console.
+ # Native Library Integration in C#
+This repository demonstrates how to integrate a native library written in C/C++ with a C# program. The native library, `NativeLibrary.dll`, contains C++ libraries that were compiled from "NativeC++/src/*.cpp".
 
 ## Step-by-Step Explanation
 
@@ -8,7 +10,7 @@ This repository demonstrates how to integrate a native library written in C/C++ 
 
 The first step is to create the native library. This can be done using any C/C++ development environment, such as Visual Studio or Xcode.
 
-Here is the code for the `hello()` function in C++:
+Here is a sample code for the `hello()` function in C++:
 
 ```c++
 #include <iostream>
@@ -51,20 +53,7 @@ namespace Program {
 ```
 
 The `DllImport` attribute specifies the name of the native library and the name of the function that you want to import.
-
-### 4. Calling the Native Function
-
-Once you have imported the native library, you can call the native function from your C# program.
-
-Here is an example of how to call the `hello()` function from C#:
-
-```csharp
-static void Main(string[] args)  {
-    hello();
-}
-```
-
-This code calls the `hello()` function, which prints the message "Hello from the native library!" to the console.
+For more sample, see "Program.cs" in Csharp directory.
 
 ## Conclusion
 
